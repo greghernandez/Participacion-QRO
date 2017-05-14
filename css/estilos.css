@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.social_login{
+  margin-top: -15% !important;
+  margin-left: 20%;
+  float: left;
+  width: 60% !important;
+}
+.degradado_login{
+  position: relative;
+  background-image: url("../img/arcos.png");
+  background-size: 100% 100%;
+  text-align: center;
+  height: 100%;
+}
+
+.degradado_login a>h3{
+  margin-top: 5%;
+}
+
+.degradado_login h3{
+  margin-top: 25%;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+.degradado_login img{
+  margin-top: 10%;
+  width: 40%;
+}
+
+.form_login{
+  position: relative;
+  top: 50px;
+  margin-left: 15%;
+  background: rgba(255,255,255,0.3);
+  width: 70%;
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+
+.form_login img{
+  width: 10%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.form_login input, .form_login select{
+  margin-top: 1%;
+  margin-left: 2.5%;
+  width: 75%;
+  border: none;
+  outline: none;
+  background: transparent;
+  height: 80%;
+  font-size: 15px;
+  color: white;
+  font-weight: 400;
+}
+
+.degradado_login button{
+  outline: none;
+  width: 45%;
+  height: 45px;
+  border-radius: 5px;
+  background: white;
+  border: none;
+  margin-top: 5%;
+  color: #154A8F;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
+
+.explicacion{
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 40%;
+  width: 80%;
+}
+.explicacion img{
+  width: 50%;
+}
+.explicacion h2{
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+  text-align: justify;
+}
+.nav_bar{
+  margin-left: 20%;
+  width: 60%;
+  height: 30px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+.nav_point{
+  position: relative;
+  float: left;
+  left: 22.5%;
+  margin-left: 5%;
+  width: 7%;
+  height: 50%;
+  border-radius: 50%;
+  background: rgba(155,155,155,0.7);
+}
+.activo_point{
+  background: rgba(255,255,255,0.8);
+}
+.footer_presentacion{
+  position: absolute;
+  bottom: 0;
+  margin-top: 12%;
+  width: 100%;
+  height: 10%;
+}
+.registro_presentacion{
+  border-right: 1px solid rgba(21,74,143,0.5) !important;
+}
+
+.footer_presentacion button{
+  outline: none;
+  float: left;
+  border-radius: 0;
+  width: 50%;
+  height: 100%;
+  margin-top: 0;
+}
+
+.form_registro{
+  top: 0;
+}
+
+/************Estilos principal********/
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: white;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+.header h1{
+  position: relative;
+  margin-left: 5%;
+  font-size: 22px;
+  float: left;
+  margin-top: 4%;
+  color: #154A8F;
+  font-weight: 400;
+}
+.header img{
+  margin-top: 3%;
+  margin-right: 5%;
+  width: 10%;
+  border-radius: 50%;
+  float: right;
+}
+.contenido_principal{
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: white;
+  box-shadow: 0 -5px 10px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.opcion_menu{
+  float: left;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+.opcion_menu img{
+  -webkit-filter: invert(75%);
+  margin-top: 5%;
+  width: 60%;
+}
+
+/**********Secciones**********/
+.sec_principal{
+  background-image: url("../img/arcos.png") !important;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.secciones{
+  position: relative;
+  top: 60px;
+  width: 100%;
+  height: 250px;
+}
+.sec_principal h1, .sec_principal h4{
+  color: white !important;
+}
+.secciones h1{
+  position: relative;
+  top: 5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(155,155,155,1);
+  float: left;
+}
+.secciones h4{
+  margin-right: 5%;
+  margin-top: 6%;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(155,155,155,0.8);
+  float: right;
+}
+
+.ideas{
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  height: 170px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+
+.idea{
+  position: relative;
+  left: 5%;
+  margin-right: 8%;
+  width: 150px;
+  height: 100%;
+  border-radius: 5px;
+  display: inline-block;
+}
+.idea img{
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.inside_idea{
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  position: relative;
+  top: -102.5%;
+}
+.inside_idea h5{
+  color: white;
+  font-size: 10px;
+  float: right;
+  margin-top: 5.5%;
+  margin-right: 3%;
+}
+.inside_idea h2{
+  color: white;
+  font-size: 16px;
+  float: left;
+  margin-top: 60%;
+  margin-left: 5%;
+  font-weight: 400;
+}
+.inside_idea h6{
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  float: left;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.inside_idea img{
+  position: relative;
+  float: right;
+  width: 8%;
+  height: 8%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+.propuesta_inside{
+  float: left;
+  margin-top: 1%;
+  width: 100%;
+  height: 10%;
+}
+.propuesta_inside img{
+  width: 8% !important;
+  height: 78% !important;
+  margin-right: 0.5%;
+  float: right;
+  margin-top: 1.5%;
+}
+.propuesta_inside h6{
+  float: right;
+  margin-right: 10%;
+  margin-top: 1.5%;
+}
+
+/**** Propuesats accion ***/
+.propuesta_accion{
+  position: relative;
+  top: 50px;
+  margin-top: 10%;
+  margin-left: 5%;
+  height: 200px;
+  width: 90%;
+  background: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  float: left;
+}
+.propuesta_accion img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  z-index: -1;
+  float: left !important;
+}
+.accion_detalles{
+  position: relative;
+  top: -100%;
+}
+.accion_detalles h1{
+  position: relative;
+  top: 10px;
+  margin-left: 5%;
+  font-weight: 400;
+  font-size: 18px;
+  color: white;
+  float: left;
+}
+.propuesta_accion_fecha{
+  float: right;
+  margin-right: -5%;
+  width: 20%;
+}
+.propuesta_accion_fecha h4{
+  font-weight: 400;
+}
+.propuesta_accion_fecha h4, .propuesta_accion_fecha h5{
+  position: relative;
+  top: 10px;
+  color: white;
+}
+.accion_detalles h2{
+  float: left;
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-left: 5%;
+  width: 100%;
+}
+.accion_detalles h3{
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  float: left;
+  width: 80%;
+  text-align: justify;
+  margin-left: 5%;
+  margin-top: 5px;
+}
+.propuesta_estado{
+  float: left;
+  width: 60%;
+  height: 25px;
+  margin-top: 15px;
+  margin-left: 5%;
+}
+.propuesta_estado img{
+  width: 12%;
+  z-index: 0 !important;
+}
+.propuesta_estado h3{
+  text-align: left;
+  font-size: 10px;
+  font-weight: 400;
+}
+.propuesta_accion_participantes{
+  float: right;
+  width: 35%;
+  height: 25px;
+  margin-top: 15px;
+}
+.propuesta_accion_participantes img{
+  z-index: 0 !important;
+  width: 20%;
+  float: left;
+}
+.propuesta_accion_participantes h3{
+  float: left;
+  width: 75%;
+  font-size: 10px;
+}
+.propuesta_accion_participantes_parche img{
+  top: -80% !important;
+}
+.propuesta_accion_participantes_parche > .accion_detalles{
+  top: -80% !important;
+}
+
+/*** mis propuestas ***/
+.mis_propuestas_cont{
+  margin-top: 0%;
+}
+.mis_propuestas_cont h6{
+  margin-top: 30px;
+  float: left;
+  margin-left: 5%;
+  color: rgba(155,155,155,0.9);
+  font-size: 18px;
+}
+.mis_propuestas{
+  top: 0 !important;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.mis_propuestas_cont_img h3{
+  margin-left: 40%;
+  width: 30%;
+  margin-right: 5%;
+}
+.mis_propuestas_cont_img img{
+  width: 17.5%;
+  height: 75%;
+}
+
+/************* propuesta upload ********/
+
+.img_propuesta{
+  position: relative;
+  width: 100%;
+  top: 60px;
+  background: #006BA8;
+  height: 170px;
+  text-align: center;
+}
+.img_propuesta h1{
+  position: relative;
+  top: 30%;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.img_propuesta img{
+  width: 15%;
+  margin-top: 15%;
+}
+.img_form{
+  margin-left: 10%;
+  width: 80%;
+  position: relative;
+  margin-top: 20%;
+}
+.img_form h2{
+  margin-top: 20px;
+  font-size: 20px;
+  color: #006BA8;
+  margin-bottom: 5px;
+}
+.img_form input, .img_form textarea{
+  padding-left: 5%;
+  width: 100%;
+  outline: none;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(155,155,155,0.2);
+}
+.img_form textarea{
+  height: 150px;
+  padding-top: 5%;
+}
+.img_form button{
+  margin-top: 30px;
+  margin-left: 10%;
+  width: 80%;
+  height: 40px;
+  border: none;
+  color: white;
+  background: #00AD86;
+  border-radius: 10px;
+}
